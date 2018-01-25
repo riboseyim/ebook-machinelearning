@@ -22,11 +22,10 @@
 ![知识星球: @Machine Learning](http://o8m8ngokc.bkt.clouddn.com/riboseyim_id_quanzi_machinelearning.png)
 
 ### Latest Version
-https://www.gitbook.com/book/riboseyim/linux-perf-master/details
+https://www.gitbook.com/book/riboseyim/machine-learning/details
 
 ### 快捷下载
 
-- [Edition 0.3 20171230](https://pan.baidu.com/s/1bppqKdL)
 
 ## Thanks
 Thanks to my family and colleagues.
