@@ -1,0 +1,8 @@
+
+cd /Users/yanrui/project/ebook-machinelearning
+
+git add .
+
+git commit -m "auto commit"
+
+git push origin master
