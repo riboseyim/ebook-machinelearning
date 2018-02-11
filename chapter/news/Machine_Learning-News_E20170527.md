@@ -1,48 +1,4 @@
----
-title: 机器学习应用：计算机自然语言处理 (Natural Language Processing)
-date: 2017-08-29 18:38:51
-tags: [Machine-Learning,数学与算法,架构师,Economist]
----
-## 摘要
-- Domain Expert:Professor [Michael Collins](http://www.cs.columbia.edu/~mcollins/)
-- 媒体报道|经济学人：译者的悲伤 | 20170527
-- 媒体报道|经济学人：计算机如何学习人类语言？| 20170111
-
-<!--more-->
-
-## Domain Expert
-#### [Michael Collins](http://www.cs.columbia.edu/~mcollins/)
-Professor of Computer Science,Columbia University
-- [Introduction to Probability, 2nd Edition](http://athenasc.com/probbook.html)
-ISBN: 978-1-886529-23-6
-Publication: July 2008, 544 pages, hardcover
-Price: $91.00
-
-## Resource
-
-- [读书笔记|数学之美（Beauty Of Mathmetics）](https://riboseyim.github.io/2017/08/30/Mathmetics-Beauty/)
-
-#### 经济学人：计算机如何学习人类语言？
-日期：2017年1月11日
-标题：How machines learned to speak human language
-副标：And what does that mean for the way people use computers?
-来源：[http://www.economist.com/blogs/economist-explains/2017/01/economist-explains-6]
-
-今年圣诞节数以百万计的人将得到一种装有电子设备的盒子——能够快速地提高使用人类语言的能力。亚马逊的 Echo 设备，配备了一个名为 Alexa 的数字助理，现在在500多万户家庭中出现。 Echo 是一个圆筒形的台式电脑，除了声音之外没有其它接口。你可以要求 Alexa 播报天气信息，播放音乐，预定出租车，告知通勤路程或讲一个老掉牙的笑话，它都会响应。来自美国电脑巨头的语音驱动式数字助理（谷歌的 Assistant、微软的 Cortana和苹果的 Siri）也已经取得了很大的进步。计算机是如何处理人类语言的问题呢？
-
-![](http://omaxozji3.bkt.clouddn.com/NLP_Amazon_Echo.jpg)
-
-曾经的想法是将教机器学习语言规则，例如翻译，使用一套语法规则来打破源语言的意义，再用另一组用来重现目标语言中的意思。但是经历过20世纪50年代的乐观情绪过后，业界发现这种系统不能用于复杂的新句子；基于语言规则的方法很难大规模扩展应用。用于人类语言识别技术的研究投资进入了长达几十年的蛰伏期，直到20世纪80年代的迎来复兴时期。[注：著名人工智能专家明斯基（达特茅斯会议的发起者之一）对美国科技决策部分产生了重大影响，自然科学基金会等对传统的自然语言处理研究资助大大减少。弗里德里克-贾里尼克（Frederick Jelinek)及其领导的 IBM 华生实验室（T.J.Watson) 在统计语言学取得关键突破。]
-
-实际上，人类语言识别技术可以通过模式匹配的形式来自我学习。例如语音识别，计算机一边输入语音文件作为语料，另一边是人工编辑的译本作为的译本。系统学着预测这些语音的结果“听起来”应该属于那个译本。在翻译过程中，训练数据是源语言文本和人工翻译的文本。系统自主学习、匹配它们之间的模式。提高语音识别和翻译能力的一个因素是“语言模型”—— 一个关于英语句子的知识库。这大大缩小了系统的预测工作量。
-
-最近有三件事使这种方法取得了巨大的飞跃：首先，计算机的运算能力比过去强大得多。第二，它们可以从海量的、日益增长的数据中学习，不管是在因特网上公开获取还是公司私下收集的。第三，所谓的“深度学习”（deep learning），它使用包括多层次的数字“神经元”及其连接的数字神经网络，使得该系统非常善于从例子中学习。
-
-所有这一切都意味着，计算机现在非常善于回答具备明确定义的问题。例如 “明天伦敦的气温是多少？” （公平地说，你不必是一台电脑也能知道明天伦敦会下雨）。用户甚至可以用更自然的方式询问，比如“明天我应该带伞去伦敦吗？”（数字助理不断地从人们不同的提问方式中学习），但是问一个开放式的问题（“明天伦敦有什么有趣或者可以薅羊毛的事情吗？”）通常你只会得到一个来自搜索引擎结果的列表。
-
-随着机器学习（ machine learning）的改进，当用户的智能设备更加熟悉他们时，这样的答案将变得更加有用。这意味着隐私倡导者的麻烦，但是参考过去几年手机应用的情况来看，消费者将作出权衡，他们通常非常高兴能获得新功能。
-
-#### 经济学人：译者为何忧虑？
+# 经济学人：译者为何忧虑？
 
 日期：2017年5月27日
 译者：LynnTra@经济学人翻译社
