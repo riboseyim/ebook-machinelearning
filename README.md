@@ -9,6 +9,11 @@
 [Telegram](https://t.me/riboseyim)
 [Mail](mailto:riboseyim@gmail.com)
 
+## 部分章节
+* [机器学习案例：基于 TensorFlow 实现宠物血统智能识别](chapter/introduce/Machine-Learning-TensorFlow.md)
+* [机器学习算法 Top 10](chapter/introduce/Machine-Learning-Algorithms.md)
+* [机器学习项目 Top 30](chapter/introduce/Machine-Learning-Projects.md)
+
 ## Community
 更多精彩内容请扫码关注公众号,[RiboseYim's Blog:riboseyim.github.io](https://riboseyim.github.io?product=ebook&id=machinelearning)
 ![微信公众号@睿哥杂货铺](http://o8m8ngokc.bkt.clouddn.com/ID_RiboseYim_201706.png)
