@@ -1,5 +1,7 @@
 # The Machine Learning Master
 
+![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+
 ## 作者：[RiboseYim](https://riboseyim.github.io/2016/05/31/AboutMe/)
 
 [Linkedin](https://www.linkedin.com/in/riboseyim/)
@@ -9,11 +11,13 @@
 [Telegram](https://t.me/riboseyim)
 [Mail](mailto:riboseyim@gmail.com)
 
-## 部分章节
-* [机器学习案例：基于 TensorFlow 实现宠物血统智能识别](chapter/introduce/Machine-Learning-TensorFlow.md)
+## 章节
+* [Chapter 1: 机器学习导论](#)
+* [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识](chapter/introduce/Machine-Learning-TensorFlow.md)
+* [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](chapter/introduce/Machine-Learning-OpenCV/)
 * [机器学习算法 Top 10](chapter/introduce/Machine-Learning-Algorithms.md)
 * [机器学习项目 Top 30](chapter/introduce/Machine-Learning-Projects.md)
-* [Chapter N: 媒体报道集]()
+* [Chapter N: 媒体报道集](#)
 * [经济学人：计算机如何学习人类语言？](chapter/introduce/Machine-Learning-News_E20170111.md)
 * [经济学人：译者为何忧虑？](chapter/introduce/Machine-Learning-News_E20170527.md)
 

@@ -1,7 +1,8 @@
 # Summary
 
 * [Chapter 1: 机器学习导论]()
-* [机器学习案例：基于 TensorFlow 实现宠物血统智能识别](chapter/introduce/Machine-Learning-TensorFlow.md)
+* [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识](chapter/introduce/Machine-Learning-TensorFlow.md)
+* [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](chapter/introduce/Machine-Learning-OpenCV/)
 * [机器学习算法 Top 10](chapter/introduce/Machine-Learning-Algorithms.md)
 * [机器学习项目 Top 30](chapter/introduce/Machine-Learning-Projects.md)
 * [Chapter N: 媒体报道集]()

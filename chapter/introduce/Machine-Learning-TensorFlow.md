@@ -1,13 +1,13 @@
 # 基于 TensorFlow 实现宠物血统智能识别
 
+人类喜欢将所有事物都纳入鄙视链的范畴，宠物当然也不例外。一般来说，拥有一只纯种宠物可以让主人占据鄙视链的云端，进而鄙视那些混血或者流浪宠物。甚至还发展出了专业的鉴定机构，可以颁发《血统证明书》。但是考究各类纯种鉴定的常规方法：例如眼睛的大小、颜色、鼻子的特点、身躯长度、尾巴特征、毛发等，当然也包括一些比较玄幻的特征：宠物家族的个性、气质等等。抛开“黑魔法”不在此讨论之外，既然是基于生物外形特征鉴定，判断是否纯种的需求本质上就是一个图像识别服务。
+
 ## 摘要
 - Hello TensorFlow
 - TensorFlow  C library
 - TensorFlow  Go bingding
 
 ## Hello TensorFlow
-
-人类喜欢将所有事物都纳入鄙视链的范畴，宠物当然也不例外。一般来说，拥有一只纯种宠物可以让主人占据鄙视链的云端，进而鄙视那些混血或者流浪宠物。甚至还发展出了专业的鉴定机构，可以颁发《血统证明书》。但是考究各类纯种鉴定的常规方法：例如眼睛的大小、颜色、鼻子的特点、身躯长度、尾巴特征、毛发等，当然也包括一些比较玄幻的特征：宠物家族的个性、气质等等。抛开“黑魔法”不在此讨论之外，既然是基于生物外形特征鉴定，判断是否纯种的需求本质上就是一个图像识别服务。
 
 >Tensorflow is not a Machine Learning specific library, instead, is a general purpose computation library that represents computations with graphs.
 
@@ -259,9 +259,14 @@ $ curl localhost:8080/recognize -F 'image=@../data/IMG_3560.png'
 >We know that label 866 (military uniform) should be the top label for the Admiral Hopper image.
 
 ## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
+![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
-- [Machine Learning:机器学习开源项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)
+- [Machine Learning (二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
+- [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)
 - [Machine Learning:机器学习算法](https://riboseyim.github.io/2018/02/10/Machine-Learning-Algorithms/)
+- [Machine Learning:机器学习书单](https://riboseyim.github.io/2018/01/25/Machine-Learning-Books/)
+- [Machine Learning:机器学习技术与知识产权法](https://riboseyim.github.io/2018/02/16/Machine-Learning-Law/)
+- [Machine Learning:人工智能媒体报道集](https://riboseyim.github.io/2017/08/29/Machine-Learning-News)
 - [数据可视化（三）基于 Graphviz 实现程序化绘图](https://riboseyim.github.io/2017/09/15/Visualization-Graphviz/)
 
 ## 参考文献

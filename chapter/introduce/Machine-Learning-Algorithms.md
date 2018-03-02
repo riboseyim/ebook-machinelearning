@@ -5,6 +5,7 @@
 - 基本的机器学习算法：线性回归、支持向量机(SVM)、最近邻居(KNN)、逻辑回归、决策树、k平均、随机森林、朴素贝叶斯、降维、梯度增强
 - 公式、图示、案例
 
+
 机器学习算法大致可以分为三类：
 - **监督学习算法 (Supervised Algorithms）**:在监督学习训练过程中，可以由训练数据集学到或建立一个模式（函数 / learning model），并依此模式推测新的实例。该算法要求特定的输入/输出，首先需要决定使用哪种数据作为范例。例如，文字识别应用中一个手写的字符，或一行手写文字。主要算法包括神经网络、支持向量机、最近邻居法、朴素贝叶斯法、决策树等。
 - **无监督学习算法 (Unsupervised Algorithms)**:这类算法没有特定的目标输出，算法将数据集分为不同的组。
@@ -30,6 +31,8 @@
 线性回归又分为两种类型，即 **简单线性回归（simple linear regression)**，只有 1 个自变量；**多变量回归（multiple regression)**，至少两组以上自变量。
 
 ![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_LR.png)
+
+![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Linear_Regression_2.jpg)
 
 下面是一个线性回归示例：基于 Python scikit-learn 工具包描述。
 
@@ -133,7 +136,7 @@ print(y_true)
 
 以上是一个简单的逻辑回归方程，B0，B1是常数。这些常数值将被计算获得，以确保预测值和实际值之间的误差最小。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_LR.png)
+![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Logistic_Regression_1.gif)
 
 ![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Logistic_Regression.jpg)
 
@@ -196,17 +199,6 @@ K-Means 算法把 n 个点（可以是样本的一次观察或一个实例）划
 - LightGBM  — 只使用基于树的算法
 梯度增强算法的特点是精度较高。此外，LightGBM 算法具有令人难以置信的高性能。
 
-
-## 辞典
-
-- GAN Generative Adversarial Network，生成对抗网络
-非监督式学习的一种方法，通过让两个神经网络相互博弈的方式进行学习。该方法由伊恩·古德费洛等人于2014年提出）
-
-## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-- [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
-- [Machine Learning:机器学习开源项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)
-- [Machine Learning:机器学习算法](https://riboseyim.github.io/2018/02/10/Machine-Learning-Algorithms/)
-- [数据可视化（三）基于 Graphviz 实现程序化绘图](https://riboseyim.github.io/2017/09/15/Visualization-Graphviz/)
 
 ## 参考文献
 - [A Tour of The Top 10 Algorithms for Machine Learning Newbies](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
