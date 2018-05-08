@@ -1,5 +1,13 @@
 # History
 
+## 社区
+
+- [简书专题 |《Machine Learning 小组》](https://www.jianshu.com/c/e94623c9ea2a)
+
+我正在「Machine Learning」和朋友们讨论有趣的话题，你一起来吧？https://t.zsxq.com/zFUF2zv
+
+![](http://o8m8ngokc.bkt.clouddn.com/quanzi-machinelearning.png)
+
 ## 订阅情况
 |时间点|订阅用户数|Downloads|Unique visitors|Page Views|说明|
 |-----|-----|-----|-----|-----|-----|

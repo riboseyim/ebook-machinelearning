@@ -1,6 +1,4 @@
-## 媒体报道集：自然语言处理
-
-## 经济学人：计算机如何学习人类语言？
+# 经济学人：计算机如何学习人类语言？
 
 日期：2017年1月11日
 标题：How machines learned to speak human language
