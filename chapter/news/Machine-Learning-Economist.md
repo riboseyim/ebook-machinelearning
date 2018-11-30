@@ -24,7 +24,7 @@
 
 例如，机器学习系统（machine learning system）已经将机器的能力转化为执行许多基本的知觉类型，以实现更广泛的应用。机器视觉 -- 查看和识别物体的能力，在照片中标记它们，并解读视频流。识别错误率地改善，从1/30(帧) 提高到 1/30万(帧)，自动驾驶汽车越来越具有可行性。
 
-![AI技术进步&图像识别错误率](http://omb2onfvy.bkt.clouddn.com/ML-Paper-Paradox.png)
+![AI技术进步&图像识别错误率](http://riboseyim-qiniu.riboseyim.com/ML-Paper-Paradox.png)
 
 #### **Measuring AI Capital**
 
@@ -38,7 +38,7 @@
 
 >Much of the market value of AI capital specifically and IT capital more generally may be derived from the capitalized short-term quasi-rents earned by firms that have already reorganized to extract service flows from new investment.
 
-![](http://omb2onfvy.bkt.clouddn.com/ML-Paper-Paradox-Growth.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML-Paper-Paradox-Growth.png)
 
 人工智能悖论与世界的变化是一致的。研究人员考虑了悖论的其他可能原因，其中包括对 AI 的盲目乐观，生产力效益正在发生但被误判，新技术的收益存在但仅限于一小部分工人，给出的解释是实现延迟（**here’s an implementation delay**）。他们写道：“这种看似悖论的两半都是正确的”。在这个观点中，预示着随着应用的扩展，人工智能技术突破对生产力的影响将越来越大。人工智能投资成本高昂，需要配套设施的发展，需要时间和资源来实施。
 
@@ -48,7 +48,7 @@
 1987 年获得诺贝尔奖的经济学家罗伯特·索洛(Robert Solow)将这种现象称为“生产率悖论”(Productivity Paradox)：“我们到处都看得见计算机，就是在生产率统计方面却看不见计算机（Computers everywhere except in the productivity statistics.）”。
 
 ## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+![](http://riboseyim-qiniu.riboseyim.com/banner-MLM-201803.png)
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
 - [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
 - [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)

@@ -10,9 +10,9 @@ Stanford ML Group 建立了一个使用深度学习算法的程序，根据电�
 
 姑息治疗（Palliative Care ，在日本、中国台湾翻译为舒缓医学）起源于 hospice运动，最早起源于公元四世纪。根据世界卫生组织的定义，姑息治疗强调控制疼痛及患者有关症状，并对心理、社会和精神问题予以重视，目的是为病人和家属赢得最好的生活质量。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML-News-201802-3.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML-News-201802-3.png)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML-News-201802-2.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML-News-201802-2.png)
 
 预测模型是一个 18 层的深度神经网络，输入参数为一个病人的 EHR 数据，输出为未来 3-12 个月死亡的概率。训练数据采用斯坦福医院 EHR 数据库中的历史数据，包含超过 200 万名患者的数据。EHR 数据包括患者过去 12 个月的诊断结论、治疗程序、处方和相关细节（经过脱敏和技术处理，以替代码的形式表示），所有数据被转换成 13654 维的特征向量。训练好的模型 AUROC 评分达到 0.93 ，交叉验证的平均精度为0.69 分。
 
@@ -155,7 +155,7 @@ Mybridge AI  在 20000 篇关于创建机器学习应用的文章中挑选了前
 * [How to Predict Stock Prices Easily - Intro to Deep Learning #7](https://www.youtube.com/watch?v=ftMq5ps503w?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
 
 ## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+![](http://riboseyim-qiniu.riboseyim.com/banner-MLM-201803.png)
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
 - [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
 - [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)

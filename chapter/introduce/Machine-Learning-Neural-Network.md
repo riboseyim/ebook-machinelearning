@@ -6,7 +6,7 @@
 - 深度网络：A single layer Neural Network、Wide Neural Network  vs  Deep Neural Network
 - 维度诅咒、权衡
 
-![](http://omb2onfvy.bkt.clouddn.com/AI-Neurons.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/AI-Neurons.jpg)
 
 ## Introduction
 
@@ -20,7 +20,7 @@
 
 ## 工作流程
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-1.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-1.jpg)
 
 人工神经网络由3个组成部分组成：
 - 输入层 Input Layer
@@ -33,7 +33,7 @@
 
 #### 前向传播 Forward-Propagation
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-2.png)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-2.png)
 
 随机初始化权重（Randomly initialize weights）
 - w1
@@ -48,7 +48,7 @@
 
 #### 反向传播 Backward Propagation
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-3.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-3.jpg)
 
 - 总误差  total\_error 通过一个代价函数 (cost function) 来计算，参数为计算期望值( expected value ) y（训练集中的值）和观测值(observed value)  y\_（前向传播值）
 - 按每一个权重计算误差的偏导数（这些偏微分是每一个权重在总误差中的量度）
@@ -66,7 +66,7 @@
 
 偏差（Bias）是添加到隐藏层的权重。它们也被随机初始化并以隐藏层相似的方式更新。虽然隐藏层的作用是映射数据中底层函数（underlying function）的模型，但偏差的作用是横向移动学习函数（the learned function），使其与原始函数（the original function）重叠。
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-4.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-4.jpg)
 
 #### 偏导数 Partial Derivatives
 计算偏导数使我们能够知道每个权重对误差的贡献。
@@ -77,15 +77,15 @@
 
 假设有几个孩子被要求向飞镖靶掷飞镖，瞄准中心。最初的结果是：
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-5.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-5.jpg)
 
 现在如果我们确认了总误差并简单地从所有权重中减去，那么我们可以概括每个学生的误差。假设一个孩子瞄准的目标太低，但是我们要求所有的孩子都瞄准得更高一些，结果是：
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-6.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-6.jpg)
 
 一些学生的错误可能会减少，但总体错误仍然会增加。通过查找偏导数，我们可以找出每个权重单独产生的误差。单独修正每个权重会得到以下结果：
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-7.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-7.jpg)
 
 
 ## 超参数 Hyper Parameters
@@ -94,11 +94,11 @@
 #### 学习速率 Learning Rate
 学习速率是一个非常关键的超参数。如果学习速率太小，那么即使在长时间训练神经网络之后，它仍将远离最优结果。结果看起来像：
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-8.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-8.jpg)
 
 相反，如果学习率太高，那么学习者就会过早地得出结论。产生以下结果：
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-9.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-9.jpg)
 
 
 #### 激活函数 Activation Function
@@ -106,7 +106,7 @@
 
 这些函数的非线性负责增加学习者的自由度，使他们能够在较低维度上推广高维的问题。
 下面是一些流行的激活函数的例子：
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-10.png)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-10.png)
 
 
 #### 成本函数 Cost Function
@@ -129,7 +129,7 @@
 - 成本函数必须能够写成平均值
 - 成本函数不能取决于除一个神经网络中的输出值以外的的任何激活值
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-11.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-11.jpg)
 
 
 ## 深度网络
@@ -142,19 +142,19 @@
 #### 单层神经网络 A single layer Neural Network
 单层神经网络，无论第一层（绿色神经元）如何学习，他们只需将其传递给输出即可。
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-12.png)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-12.png)
 
 #### 双层神经网络 Two layer Neural Network
 对于两层神经网络，无论绿色隐藏层学习什么，都要传递到蓝色隐藏层，进一步学习（关于绿色层学习）。因此，隐藏层的数量越多，对先前已经学习过的概念的学习就越多。
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-13.png)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-13.png)
 
 #### Wide Neural Network  vs  Deep Neural Network
 在一层中存在更多神经元的情况下，它不会获得更深层次的洞察力。相反，它的结果是学习到更多的概念。
 
 例：学习英语语法，它需要理解大量的概念。在这种情况下，单层宽神经网络比深度神经网络的效果要好得多，而深度神经网络的宽度要小得多。
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-14.png)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-14.png)
 
 但在学习傅立叶变换(Fourier Transform)的情况下，学习者（神经网络）需要深入学习，因为没有太多的概念需要学习，但每个概念都足够复杂，需要深度学习。
 
@@ -179,7 +179,7 @@
 
 在训练早期因为网络输出远未达到要求，偏差很大。由于数据影响较小，方差很小。在训练后期因为网络已经学会了潜在的功能，偏差很小。
 
-![](http://omb2onfvy.bkt.clouddn.com/NeuralNetwork-Basic-15.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/NeuralNetwork-Basic-15.jpg)
 
 然而，如果训练太长，网络也将学习该数据集特殊的噪声。这导致在不同数据集上测试的结果表现为高方差，因为不同数据集的噪声存在变化。实际上，具有高偏差的算法通常产生更简单的模型，这些模型不倾向于过度拟合，但可能会削弱其训练数据，而不能捕获重要的模式或特征的属性。具有低偏差和高方差的模型在结构上通常更复杂，使得它们能够更准确地表示训练集。然而，在这一过程中，它们也可能代表训练集中的占比较大的噪声，使得它们的预测尽管复杂性增加，但精度却不太精确。
 
@@ -189,7 +189,7 @@
 
 
 ## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+![](http://riboseyim-qiniu.riboseyim.com/banner-MLM-201803.png)
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
 - [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
 - [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)

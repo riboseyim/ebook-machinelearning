@@ -32,7 +32,7 @@
 
 由于备忘单是为初学者数据科学家和分析师设计的，因此在讨论算法时会做一些简化假设。这里推荐的算法来自几位数据科学家和机器学习专家和开发人员的反馈和提示。有几个问题我们的看法并不一致，对于这些问题，我们试图强调通用性、尽量调和差异。随着我们的知识库发展，将包含一套更完整的方法，其他算法将在稍后添加。
 
-![The machine learning algorithm cheat sheet](http://omb2onfvy.bkt.clouddn.com/machine-learning-cheet-sheet.png)
+![The machine learning algorithm cheat sheet](http://riboseyim-qiniu.riboseyim.com/machine-learning-cheet-sheet.png)
 
 #### 如何使用备忘单
 备忘单使用方法，依次阅读的路径和算法标签，例如：
@@ -52,7 +52,7 @@
 
 |线性回归|逻辑回归|
 |------|-----|
-|![Linear regression](http://omb2onfvy.bkt.clouddn.com/machine-learning-linear-regression.png)|![Logistic regression](http://omb2onfvy.bkt.clouddn.com/machine-learning-logistic-regresion.png)|
+|![Linear regression](http://riboseyim-qiniu.riboseyim.com/machine-learning-linear-regression.png)|![Logistic regression](http://riboseyim-qiniu.riboseyim.com/machine-learning-logistic-regresion.png)|
 
 #### Linear SVM vs kernel SVM
 当数据的各种类型不是线性可分的时候，核方法（Kernel method 或 Kernel tricks）可以用来将非线性可分的空间映射到更高维的线性可分的空间。
@@ -61,11 +61,11 @@
 
 当大多数因变量是数字时，逻辑回归和 SVM 是首先应该尝试的分类方法。这些模型易于实现，参数易调整，性能也相当不错。非常适合初学者。
 
-![Kernel tricks are used to map a non-linearly separable functions into a higher dimension linearly separable function.](http://omb2onfvy.bkt.clouddn.com/machine-learning-kernal-SVM.png)
+![Kernel tricks are used to map a non-linearly separable functions into a higher dimension linearly separable function.](http://riboseyim-qiniu.riboseyim.com/machine-learning-kernal-SVM.png)
 
 |线性回归|逻辑回归|
 |------|-----|
-|![Group By Linear Regression](http://omb2onfvy.bkt.clouddn.com/machine-learning-Group-By-Linear-Regression.jpg)|![machine-learning-Logistic-Regression-SAS](http://omb2onfvy.bkt.clouddn.com/machine-learning-Logistic-Regression-SAS.jpg)|
+|![Group By Linear Regression](http://riboseyim-qiniu.riboseyim.com/machine-learning-Group-By-Linear-Regression.jpg)|![machine-learning-Logistic-Regression-SAS](http://riboseyim-qiniu.riboseyim.com/machine-learning-Logistic-Regression-SAS.jpg)|
 
 #### 树 | Tree
 
@@ -73,13 +73,13 @@
 
 决策树（Decision Tree），随机森林（Random Forest）和梯度提升（Gradient Boosting ）都是基于决策树的算法。决策树有许多变体，但它们都做同样的事情 - 将特征空间细分成大多数标签相同的区域。决策树很容易理解和实施。但是，当我们耗尽树枝（branch）并且深入时，它们倾向于过度拟合数据。随机森林和梯度提升是两种使用树算法的实现，具有良好的精确度，是克服过拟合问题（over-fitting problem）的流行方法。
 
-![A decision tree for prediction model](http://omb2onfvy.bkt.clouddn.com/machine-learning-decision-tree.png)
+![A decision tree for prediction model](http://riboseyim-qiniu.riboseyim.com/machine-learning-decision-tree.png)
 
 注：在统计学中，过拟合（overfitting，或称过度拟合）现象是指在拟合一个统计模型时，使用过多参数。对比于可获取的数据总量来说，一个荒谬的模型只要足够复杂，是可以完美地适应数据。过拟合一般可以视为违反奥卡姆剃刀原则。当可选择的参数的自由度超过数据所包含信息内容时，这会导致最后（拟合后）模型使用任意的参数，这会减少或破坏模型一般化的能力（目标效果应适用于一般化的情况而非只是训练时所使用的现有数据（根据它的归纳偏向））。另一种常见的现象是使用太少参数，以致于不适应数据，这则称为乏适（underfitting，或称：拟合不足）现象。
 
 ### 神经网络和深度学习
 
-![A convolution neural network architecture](http://omb2onfvy.bkt.clouddn.com/machine-learning-cnn-architecture.jpg)
+![A convolution neural network architecture](http://riboseyim-qiniu.riboseyim.com/machine-learning-cnn-architecture.jpg)
 
 神经网络在 20 世纪 80 年代中期由于其并行和分布式处理能力而兴旺发达。但是在这个领域的研究受反向传播算法无效性的阻碍，它广泛用于优化神经网络参数。支持向量机（SVM）和其他更简单的模型，可以通过求解凸优化问题来轻松训练，逐渐取代机器学习中的神经网络。
 
@@ -92,25 +92,25 @@
 
 神经网络由三部分组成：输入层（input layer），隐藏层（hidden layers）和输出层（output layer）。训练样本定义了输入层和输出层。当输出层是一个分类变量时，神经网络就是解决分类问题的一种方法。当输出层是连续变量时，网络可以用来做回归。当输出层与输入层相同时，网络可用于提取内在特征。隐藏层的数量决定了模型的复杂性和建模容量。
 
-![A neural network in SAS Visual Analytics](http://omb2onfvy.bkt.clouddn.com/machine-learning-vdmml_neural.png)
+![A neural network in SAS Visual Analytics](http://riboseyim-qiniu.riboseyim.com/machine-learning-vdmml_neural.png)
 
 #### k-means / k-modes，GMM（高斯混合模型）聚类
 k-means / k-modes，GMM 聚类旨在将 n 个观测分为 k 个聚类。 简单地说，k-means 的结果是每个数据点被 assign 到其中某一个 cluster 了，即 hard  assignment，而 GMM 则给出这些数据点被 assign 到每个cluster 的概率，又称作 soft assignment 。每个样本都有与每个群集关联的概率。当给定聚类数 k 时，两种算法都足够简单快速地进行聚类。
 
 |k-means|GMM|
 |------|-----|
-|![K Means Clustering](http://omb2onfvy.bkt.clouddn.com/machine-learning-kmeans-clustering-1.png)|![Gaussian Mixture Model](http://omb2onfvy.bkt.clouddn.com/machine-learning-gaussianmixturemodel-1.png)|
+|![K Means Clustering](http://riboseyim-qiniu.riboseyim.com/machine-learning-kmeans-clustering-1.png)|![Gaussian Mixture Model](http://riboseyim-qiniu.riboseyim.com/machine-learning-gaussianmixturemodel-1.png)|
 
 #### DBSCAN | 基于密度的空间聚类
 DBSCAN ，Density-based spatial clustering of applications with noise ，是在 1996 年由 Martin Ester 等提出的聚类分析算法， 这个算法是以密度为本的：给定某空间里的一个点集合，该算法能把附近的点分成一组（有很多相邻点的点），并标记出位于低密度区域的局外点（最接近它的点也十分远），DBSCAN 是一个最常用的聚类分析算法。
 
-![A DBSCAN illustration](http://omb2onfvy.bkt.clouddn.com/machine-learning-dbscan.jpg)
+![A DBSCAN illustration](http://riboseyim-qiniu.riboseyim.com/machine-learning-dbscan.jpg)
 
 #### Hierarchical clustering | 分层聚类
 
 分层分区可以使用树结构（树状图）可视化。它不需要集群的数量作为输入，并且可以使用不同的 K 来在不同粒度级别处查看分区（即精炼/粗化集群  refine/coarsen clusters）。
 
-![Hierarchical clustering](http://omb2onfvy.bkt.clouddn.com/machine-learning-Hierarchical_clustering.png)
+![Hierarchical clustering](http://riboseyim-qiniu.riboseyim.com/machine-learning-Hierarchical_clustering.png)
 
 #### PCA，SVD和LDA
 我们通常不希望直接将大量特征提供给机器学习算法，因为某些特征可能无关紧要，或者“内在”维度可能小于特征的数量。主成分分析（PCA，Principal components analysis），奇异值分解（SVD，Singular value decomposition）和隐含狄利克雷分布（LDA，latent Dirichlet allocation）均可用于降维。
@@ -129,7 +129,8 @@ NLP 中的相关技术是隐含狄利克雷分布（ LDA ）。 LDA 是概率性
 最好的算法也许不是那些已经获得最高准确率的方法，因为算法通常需要仔细调整、广泛训练才可以实现可用性方面的最佳性能。
 
 ## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+![](http://riboseyim-qiniu.riboseyim.com/banner-MLM-201803.png)
+
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
 - [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
 - [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)

@@ -33,7 +33,7 @@
 - [Google 制作的节奏紧凑、内容实用的机器学习简介课程 | 使用 TensorFlow API](https://developers.google.com/machine-learning/crash-course/)
 
 ## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+![](http://riboseyim-qiniu.riboseyim.com/banner-MLM-201803.png)
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
 - [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
 - [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)

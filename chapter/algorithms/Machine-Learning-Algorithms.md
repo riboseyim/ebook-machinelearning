@@ -30,9 +30,9 @@
 线性回归算法（Linear Regression）的建模过程就是使用数据点来寻找最佳拟合线。公式，y = m*x + c，其中 y 是因变量，x 是自变量，利用给定的数据集求 m 和 c 的值。
 线性回归又分为两种类型，即 **简单线性回归（simple linear regression)**，只有 1 个自变量；**多变量回归（multiple regression)**，至少两组以上自变量。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_LR.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_LR.png)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Linear_Regression_2.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_Linear_Regression_2.jpg)
 
 下面是一个线性回归示例：基于 Python scikit-learn 工具包描述。
 
@@ -61,9 +61,9 @@ print(y_true)
 
 支持向量机/网络算法(SVM)属于分类型算法。SVM模型将实例表示为空间中的点，将使用一条直线分隔数据点。需要注意的是，支持向量机需要对输入数据进行完全标记，仅直接适用于两类任务，应用将多类任务需要减少到几个二元问题。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_SVM.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_SVM.png)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_SupportVectorMachine.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_SupportVectorMachine.jpg)
 
 ```python
 from sklearn import svm, datasets
@@ -94,9 +94,9 @@ KNN算法是一种基于实例的学习，或者是局部近似和将所有计�
 
 KNN 算法的缺点是对数据的局部结构非常敏感。计算量大，需要对数据进行规范化处理，使每个数据点都在相同的范围。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_KNN.gif)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_KNN.gif)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_NearestNeighbors.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_NearestNeighbors.png)
 
 ```python
 
@@ -125,7 +125,7 @@ print(y_true)
 
 延伸：KNN 的一个缺点是依赖于整个训练数据集，学习向量量化（Learning Vector Quantization，LVQ)是一种监督学习的人神经网络算法，允许你选择训练实例。LVQ 由数据驱动，搜索距离它最近的两个神经元，对于同类神经元采取拉拢，异类神经元采取排斥，最终得到数据的分布模式。如果基于 KNN 可以获得较好的数据集分类效果，利用 LVQ 可以减少存储训练数据集存储规模。典型的学习矢量量化算法有LVQ1、LVQ2和LVQ3，尤以LVQ2的应用最为广泛。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Learning_Vector_Quantization.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_Learning_Vector_Quantization.png)
 
 ## 4. 逻辑回归算法 Logistic Regression
 
@@ -136,9 +136,9 @@ print(y_true)
 
 以上是一个简单的逻辑回归方程，B0，B1是常数。这些常数值将被计算获得，以确保预测值和实际值之间的误差最小。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Logistic_Regression_1.gif)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_Logistic_Regression_1.gif)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Logistic_Regression.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_Logistic_Regression.jpg)
 
 ## 5. 决策树算法 Decision Tree
 
@@ -152,9 +152,9 @@ print(y_true)
 简单决策树算法案例，确定人群中谁喜欢使用信用卡。考虑人群的年龄和婚姻状况，如果年龄在30岁或是已婚，人们更倾向于选择信用卡，反之则更少。
 通过确定合适的属性来定义更多的类别，可以进一步扩展此决策树。在这个例子中，如果一个人结婚了，他超过30岁，他们更有可能拥有信用卡（100% 偏好）。测试数据用于生成决策树。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_DT.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_DT.png)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_DecisionTree.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_DecisionTree.png)
 
 **注意**：对于那些各类别样本数量不一致的数据，在决策树当中信息增益的结果偏向于那些具有更多数值的特征。
 
@@ -163,16 +163,16 @@ print(y_true)
 k-平均算法(K-Means)是一种无监督学习算法，为聚类问题提供了一种解决方案。
 K-Means 算法把 n 个点（可以是样本的一次观察或一个实例）划分到 k 个集群（cluster），使得每个点都属于离他最近的均值（即聚类中心，centroid）对应的集群。重复上述过程一直持续到重心不改变。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_KM.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_KM.png)
 
 ## 7. 随机森林算法 Random Forest
 
 随机森林算法（Random Forest）的名称由 1995 年由贝尔实验室提出的random decision forests 而来，正如它的名字所说的那样，随机森林可以看作一个决策树的集合。
 随机森林中每棵决策树估计一个分类，这个过程称为“投票（vote）”。理想情况下，我们根据每棵决策树的每个投票，选择最多投票的分类。
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_RF.jpg)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_RF.jpg)
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_RandomForest.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_RandomForest.png)
 
 - **Paper**[Random Forest |Leo Breiman | Statistics Department  University of California Berkeley](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf)
 
@@ -184,7 +184,7 @@ K-Means 算法把 n 个点（可以是样本的一次观察或一个实例）划
 
 >Naive Bayes is called naive because it assumes that each input variable is independent.
 
-![](http://omb2onfvy.bkt.clouddn.com/ML_Alg_Bayes.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML_Alg_Bayes.png)
 
 ## 9. 降维算法 Dimensional Reduction
 

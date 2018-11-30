@@ -16,7 +16,7 @@ OpenCV 的主要编程是 C++ ，大部分的接口也是基于 C++，但它仍�
 
 ## Using OpenCV with Node.js
 
-![](http://omb2onfvy.bkt.clouddn.com/ML-Tensorflow-Theme-Dog.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML-Tensorflow-Theme-Dog.png)
 
 #### Enviroment
 
@@ -138,7 +138,7 @@ testData.forEach((data) => {
 });
 ```
 
-![IMG_3608.png](http://omb2onfvy.bkt.clouddn.com/Tensorflow-Demo-Dog-2.png)
+![IMG_3608.png](http://riboseyim-qiniu.riboseyim.com/Tensorflow-Demo-Dog-2.png)
 
 ```
 $ npm run tf-classify
@@ -255,7 +255,7 @@ OpenCV 包含机器学习库，支持以下算法：
 - Support vector machine (SVM)
 - Deep neural networks (DNN) （[OpenCV 3.3](https://opencv.org/opencv-3-3.html) promote DNN module from opencv_contrib to the main repository）
 
-![](http://omb2onfvy.bkt.clouddn.com/ML-Algorithm-OpenCV.png)
+![](http://riboseyim-qiniu.riboseyim.com/ML-Algorithm-OpenCV.png)
 
 #### OpenCV 资源
 - [OpenCV github repo](https://github.com/opencv/opencv)
@@ -263,8 +263,9 @@ OpenCV 包含机器学习库，支持以下算法：
 - [opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs)
 - [OpenCV编程简介 Introduction to programming with OpenCV](http://wiki.opencv.org.cn/index.php/OpenCV_%E7%BC%96%E7%A8%8B%E7%AE%80%E4%BB%8B%EF%BC%88%E7%9F%A9%E9%98%B5/%E5%9B%BE%E5%83%8F/%E8%A7%86%E9%A2%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C%EF%BC%89#.EF.BC.884.EF.BC.89____.E8.AE.BE.E7.BD.AE.2F.E8.8E.B7.E5.8F.96.E6.84.9F.E5.85.B4.E8.B6.A3.E5.8C.BA.E5.9F.9FROI:)
 
-## 扩展阅读:[《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
-![](http://p11slcnom.bkt.clouddn.com/banner-MLM-201803.png)
+## [《The Machine Learning Master》](https://www.gitbook.com/book/riboseyim/machine-learning)
+![](http://riboseyim-qiniu.riboseyim.com/banner-MLM-201803.png)
+
 - [Machine Learning(一):基于 TensorFlow 实现宠物血统智能识别](https://riboseyim.github.io/2018/01/17/Machine-Learning-TensorFlow/)
 - [Machine Learning(二):宠物智能识别之 Using OpenCV with Node.js](https://riboseyim.github.io/2018/01/15/Machine-Learning-OpenCV/)
 - [Machine Learning:机器学习项目](https://riboseyim.github.io/2018/02/09/Machine-Learning-Projects/)

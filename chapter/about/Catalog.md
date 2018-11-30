@@ -6,6 +6,6 @@
 
 - [RSS订阅 RiboseYim](https://riboseyim.github.io?product=ebook&id=machinelearning)
 
-![微信公众号](http://o8m8ngokc.bkt.clouddn.com/qrcode_for_gh_896dd3dd5255_344.jpg)
+![微信公众号](http://riboseyim-qiniu.riboseyim.com/qrcode_for_gh_896dd3dd5255_344.jpg)
 
-![](http://o8m8ngokc.bkt.clouddn.com/Coll_RiboseYim_20171025.png)
+![](http://riboseyim-qiniu.riboseyim.com/Coll_RiboseYim_20171025.png)
